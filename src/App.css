@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 638px;
+  height: 100vh;
+  border: solid 3px red;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 1 0 0;
+  height: 57px;
+  border: solid 3px blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  border: solid 1px black;
+}
+
+.else-wrapper {
+  border: solid 1px black;
+}
+
+.nav {
+  align-items: center;
+  flex: 1 0 0;
+  height: 45px;
+  display: flex;
+  padding-left: 0px;
+  border: 1px solid yellow;
+  margin: 0px 0px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 0px 15px 15px;
+}
+
+.page {
+  flex: 9 0 0;
+  height: 60vh;
+  padding: 0px 20px;
+  border: 1px green solid;
+}
+
+.menu {
+  flex: 1 0 0;
+  margin: 0px 0px;
+  padding-left: 0px;
+  list-style: none;
+  display: flex;
+  height: 66px;
+  justify-content: space-around;
+  border: 1px purple solid;
+  align-items: center;
+}
