@@ -1,4 +1,5 @@
 import "./Live.css";
+import Footer from "../components/Footer";
 
 function Live() {
   return (
@@ -77,33 +78,12 @@ function Live() {
           </li>
         </ul>
 
-        <div className="footer__eland">
-          <div>
-            <b>(주)이랜드시스템스</b>
-          </div>
-          <div>
-          <p>이랜드몰(상품판매처)고객센터: 1899-9500</p>
-          <p>사업자등록번호: 010-8606-6102</p>
-          <p>통신판매업 신고번호: 000-202-30</p>
-          <p>서울시 금천구 가산동 IT프리미어타워 4층 (주)이랜드시스템스</p>
-          <p>대표이사: 김석현</p>
-          <p>개인정보 보호책임자</p>
-          <p>입점문의: seubo6102@naver.com</p>
-          </div>
-          <ul className="footer_info">
-          <li>
-            <a>이용약관</a>
-          </li>
-          <li>
-            <a>개인정보처리방침</a>
-          </li>
-          <li>
-            <a>운영정책</a>
-          </li>
-          </ul>
-        </div>
      </div>
+
+     <Footer />
    </div>
+
+   
 
   )
 }

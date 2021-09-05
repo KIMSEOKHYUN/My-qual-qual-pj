@@ -1,0 +1,57 @@
+.selectCategory {
+  margin: 0;
+  height: 70px;
+}
+
+.filterdCategory {
+  margin-top: 3px;
+  height: 40px;
+}
+
+.ranking_prod {
+  list-style: none;
+  padding: 0;
+}
+
+.prod__box {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 100%;
+}
+
+.img__box {
+  width: 100%;
+  flex: 2;
+}
+
+.info__box {
+  flex: 1;
+  font-size: 4px;
+  text-align: start;
+}
+
+.showingProduct {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.img__box > a > img {
+  width: 100%;
+  height: 70%;
+}
+
+.per {
+  margin-right: 5px;
+}
+
+.org__price {
+  margin-right: 5px;
+}
+
+.price {
+  margin-right: 5px;
+}

@@ -3,6 +3,8 @@ import { BrowserRouter } from "react-router-dom";
 import NavBar from "./pages/NavBar";
 import MenuBar from "./pages/MenuBar";
 import Page from "./pages/Page";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
