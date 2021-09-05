@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: scroll;
+}
+
+.together_topbar {
+  border-bottom: 1px solid gray;
+  margin: 10px;
+}
+
+.together_topbar > div:nth-child(2) {
+  float: right;
+}
+
+.togetherRoom_compo_wrapper {
+  margin: 0px 10px;
+}
+
+.event_date {
+  margin: 10px 0px;
+}
+
+.event_description {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.event_img_wrapper {
+  border: solid 1px black;
+  height: 170px;
+  flex: 1 0 0;
+}
+
+.event_info {
+  padding: 0px 10px;
+  flex: 2 0 0;
+}
+
+.event_info > .button > button {
+  float: right;
+}
