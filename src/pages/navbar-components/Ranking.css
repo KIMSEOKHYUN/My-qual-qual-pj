@@ -1,0 +1,42 @@
+.selectCategory {
+  border: solid 3px red;
+  margin: 0;
+  height: 70px;
+}
+
+.filterdCategory {
+  border: solid 3px blue;
+  margin-top: 3px;
+  height: 40px;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.prod__box {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px purple;
+  height: 35vh;
+  width: 30vw;
+}
+
+.img__box {
+  flex: 2;
+}
+
+.info__box {
+  flex: 1;
+  font-size: 4px;
+  text-align: start;
+}
+
+.showingProduct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}

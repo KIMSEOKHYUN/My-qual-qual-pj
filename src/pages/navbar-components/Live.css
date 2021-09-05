@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+.live__container {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  height: 100%;
+}
+
+.liveIntro__box {
+  display: flex;
+  align-items: center;
+  border: solid 2px darkorange;
+  width: 100%;
+  flex: 1;
+}
+
+.liveIntro__img {
+  border: solid 2px black;
+  flex: 1;
+  margin: 20px 10px;
+}
+
+.liveIntro__title {
+  border: solid 2px black;
+  flex: 4;
+  margin: 20px 10px;
+}
+
+.livePreview__box {
+  border: solid 2px darkorange;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.livePreview__title {
+  border: solid 2px black;
+}
+
+.livePreview__contents {
+  border: solid 2px black;
+  display: flex;
+}
+
+.contents__img {
+  border: solid 1px red;
+}
+
+.contents__text {
+  border: solid 1px red;
+  margin-left: 10px;
+}
+
+.liveReview__box {
+  border: solid 2px darkorange;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.liveCalender__box {
+  border: solid 2px darkorange;
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.footer {
+  border: solid 2px darkorange;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
