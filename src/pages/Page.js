@@ -17,7 +17,6 @@ import ShowWindow from "./menubar-components/ShowWindow";
 function Page() {
   return (
     <div className="page">
-      컨텐츠 내용 :
       <Switch>
         <Route path="/brand">
           <Brand />

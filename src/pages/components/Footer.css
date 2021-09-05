@@ -1,0 +1,38 @@
+.footer_wrapper {
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.topBar {
+  background-color: rgb(215, 215, 215);
+  padding: 20px 10px;
+}
+
+.topBar li {
+  padding: 0px 10px;
+  border-right: 1px solid black;
+}
+
+.bottomBar_wrapper {
+  background-color: rgb(243, 243, 243);
+  padding: 20px;
+}
+
+.corporation_description {
+  margin: 10px 0px;
+  color: gray;
+}
+
+.corporation_description a {
+  text-decoration: underline;
+}
+
+.corporation_else a {
+  margin-right: 10px;
+  text-decoration: underline;
+}

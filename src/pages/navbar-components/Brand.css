@@ -1,0 +1,19 @@
+.brand_wrapper {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.each_wrapper {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  flex: 1 0 0;
+}
+
+.brand_logo {
+  border: solid 1px black;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
